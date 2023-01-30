@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Alexander Dian",
+    "section": "",
+    "text": "Alex Dian tries his best at exploring a variety of topics. You can never really pinpoint what he is doing at any one time – maybe there should be a Dian’s Uncertainty Principle. The highest probability measurement outcomes are: basketball, physics, machine learning, Japanese culture, and history/art."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Alexander Dian",
+    "section": "Education",
+    "text": "Education\nThe University of Queensland | BSc. (Honours) in Physics | 2017 - 2022\nThe University of Queensland | B.A in Japanese | 2017 - 2022"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Alexander Dian",
+    "section": "Experience",
+    "text": "Experience\nI’ve done a few things here and there."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dian’s Blog",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 30, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 27, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  }
+]

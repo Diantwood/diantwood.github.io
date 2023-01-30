@@ -1,0 +1,28 @@
+---
+title: "Alexander Dian"
+about:
+  template: trestles
+  image: profile.jpg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/diantwood
+    - icon: github
+      text: Github
+      href: https://github.com/Diantwood
+---
+## About Me
+
+Alex Dian tries his best at exploring a variety of topics. You can never really pinpoint what he is doing at any one time -- maybe there should be a Dian's Uncertainty Principle. The highest probability measurement outcomes are: basketball, physics, machine learning, Japanese culture, and history/art. 
+
+## Education
+
+The University of Queensland | 
+BSc. (Honours) in Physics | 2017 - 2022
+
+The University of Queensland |
+B.A in Japanese | 2017 - 2022
+
+## Experience
+
+I've done a few things here and there. 

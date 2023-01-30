@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Dian's Blog"
+  site-url: https://www.diantwood.github.io
+  description: "A blog for Dian"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+format:
+  html:
+    theme: lux    
+    css: styles.css
+
+
+
