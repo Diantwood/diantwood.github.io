@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "Dian’s Blog",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 30, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJan 27, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "What can you expect from this blog\n\n\n\n\n\n\n\nnews\n\n\npersonal\n\n\n\n\n\n\n\n\n\n\n\nJul 1, 2025\n\n\nAlex Dian\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is to Come?\n\n\n\n\n\n\n\nnews\n\n\npersonal\n\n\n\n\n\n\n\n\n\n\n\nJan 31, 2023\n\n\nAlex Dian\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJan 30, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -37,8 +37,29 @@
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "title": "What can you expect from this blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "docs/posts/00_Welcome/Welcoming Blog.html",
+    "href": "docs/posts/00_Welcome/Welcoming Blog.html",
+    "title": "What is to Come?",
+    "section": "",
+    "text": "title"
+  },
+  {
+    "objectID": "posts/00_welcome/Untitled.html",
+    "href": "posts/00_welcome/Untitled.html",
+    "title": "What is to Come?",
+    "section": "",
+    "text": "What is to Come?\nIt’s interesting to think that I have learned so much, but I’ve never really demonstrated it or catelogued it. In any meaningful way."
+  },
+  {
+    "objectID": "posts/00_welcome/first blog.html",
+    "href": "posts/00_welcome/first blog.html",
+    "title": "What is to Come?",
+    "section": "",
+    "text": "1 What is to Come?\nIt’s interesting to think that I have learned so much, but I’ve never really demonstrated it or catalogued it. This website will hopefully do that. And it makes it better because I can incorporate knowledge of Physics and Maths easily while showing of my coding skills too.\nThe main thing I want to put in here is stuff I have learned or I am currently learning. Whether it is machine learning, or it is Japanese culture, I will aim to document stuff here.\nOne thing I want to put on this website, maybe not in the form of a blog post, but is my Honours Thesis. So, stay tuned for that.\nI will also likely put some physics tutorial notes in here.\n\n\n2 日本語を勉強\nテスト\n\n\n3 Testing Plots\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nfig = plt.figure()\nfig.set_size_inches(12,7)\nx = np.arange(10)\ny = 2.5 * np.sin(x / 20 * np.pi)\nyerr = np.linspace(0.05, 0.2, 10)\n\nplt.errorbar(x, y + 3, yerr=yerr, label='both limits (default)')\nplt.errorbar(x, y + 2, yerr=yerr, uplims=True, label='uplims=True')\nplt.errorbar(x, y + 1, yerr=yerr, uplims=True, lolims=True,\n             label='uplims=True, lolims=True')\n\nupperlimits = [True, False] * 5\nlowerlimits = [False, True] * 5\nplt.errorbar(x, y, yerr=yerr, uplims=upperlimits, lolims=lowerlimits,\n             label='subsets of uplims and lolims')\nplt.xlabel(\"X_axis_title\")\nplt.ylabel(\"Y axis title\")\nplt.legend(loc='lower right')\nplt.show(fig)\n\n\n\n\n\nFigure 1: Errorbar limit selection\n\n\n\n\nAs you can see from above, the easyness to include plots and Japanese makes it worth documenting all this online for others to see. But it also proverbially kills two birds with one stone.\n\n\nCode\n?plt"
   }
 ]

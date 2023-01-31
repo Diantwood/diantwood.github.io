@@ -10,7 +10,103 @@
 <atom:link href="https://www.diantwood.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog for Dian</description>
 <generator>quarto-1.2.313</generator>
-<lastBuildDate>Sun, 29 Jan 2023 14:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 30 Jun 2025 14:00:00 GMT</lastBuildDate>
+<item>
+  <title>What can you expect from this blog</title>
+  <dc:creator>Alex Dian</dc:creator>
+  <link>https://www.diantwood.github.io/posts/welcome/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is the first post in a Quarto blog. Welcome!</p>
+<p><img src="https://www.diantwood.github.io/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>personal</category>
+  <guid>https://www.diantwood.github.io/posts/welcome/index.html</guid>
+  <pubDate>Mon, 30 Jun 2025 14:00:00 GMT</pubDate>
+  <media:content url="https://www.diantwood.github.io/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>What is to Come?</title>
+  <dc:creator>Alex Dian</dc:creator>
+  <link>https://www.diantwood.github.io/posts/00_welcome/first blog.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="what-is-to-come" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> What is to Come?</h1>
+<p>It’s interesting to think that I have learned so much, but I’ve never really demonstrated it or catalogued it. This website will hopefully do that. And it makes it better because I can incorporate knowledge of Physics and Maths easily while showing of my coding skills too.</p>
+<p>The main thing I want to put in here is stuff I have learned or I am currently learning. Whether it is machine learning, or it is Japanese culture, I will aim to document stuff here.</p>
+<p>One thing I want to put on this website, maybe not in the form of a blog post, but is my Honours Thesis. So, stay tuned for that.</p>
+<p>I will also likely put some physics tutorial notes in here.</p>
+</section>
+<section id="日本語を勉強" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> 日本語を勉強</h1>
+<p>テスト</p>
+</section>
+<section id="testing-plots" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Testing Plots</h1>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;">import</span> numpy <span class="im" style="color: #00769E;">as</span> np</span>
+<span id="cb1-2"><span class="im" style="color: #00769E;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;">as</span> plt</span>
+<span id="cb1-3"></span>
+<span id="cb1-4">fig <span class="op" style="color: #5E5E5E;">=</span> plt.figure()</span>
+<span id="cb1-5">fig.set_size_inches(<span class="dv" style="color: #AD0000;">12</span>,<span class="dv" style="color: #AD0000;">7</span>)</span>
+<span id="cb1-6">x <span class="op" style="color: #5E5E5E;">=</span> np.arange(<span class="dv" style="color: #AD0000;">10</span>)</span>
+<span id="cb1-7">y <span class="op" style="color: #5E5E5E;">=</span> <span class="fl" style="color: #AD0000;">2.5</span> <span class="op" style="color: #5E5E5E;">*</span> np.sin(x <span class="op" style="color: #5E5E5E;">/</span> <span class="dv" style="color: #AD0000;">20</span> <span class="op" style="color: #5E5E5E;">*</span> np.pi)</span>
+<span id="cb1-8">yerr <span class="op" style="color: #5E5E5E;">=</span> np.linspace(<span class="fl" style="color: #AD0000;">0.05</span>, <span class="fl" style="color: #AD0000;">0.2</span>, <span class="dv" style="color: #AD0000;">10</span>)</span>
+<span id="cb1-9"></span>
+<span id="cb1-10">plt.errorbar(x, y <span class="op" style="color: #5E5E5E;">+</span> <span class="dv" style="color: #AD0000;">3</span>, yerr<span class="op" style="color: #5E5E5E;">=</span>yerr, label<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">'both limits (default)'</span>)</span>
+<span id="cb1-11">plt.errorbar(x, y <span class="op" style="color: #5E5E5E;">+</span> <span class="dv" style="color: #AD0000;">2</span>, yerr<span class="op" style="color: #5E5E5E;">=</span>yerr, uplims<span class="op" style="color: #5E5E5E;">=</span><span class="va" style="color: #111111;">True</span>, label<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">'uplims=True'</span>)</span>
+<span id="cb1-12">plt.errorbar(x, y <span class="op" style="color: #5E5E5E;">+</span> <span class="dv" style="color: #AD0000;">1</span>, yerr<span class="op" style="color: #5E5E5E;">=</span>yerr, uplims<span class="op" style="color: #5E5E5E;">=</span><span class="va" style="color: #111111;">True</span>, lolims<span class="op" style="color: #5E5E5E;">=</span><span class="va" style="color: #111111;">True</span>,</span>
+<span id="cb1-13">             label<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">'uplims=True, lolims=True'</span>)</span>
+<span id="cb1-14"></span>
+<span id="cb1-15">upperlimits <span class="op" style="color: #5E5E5E;">=</span> [<span class="va" style="color: #111111;">True</span>, <span class="va" style="color: #111111;">False</span>] <span class="op" style="color: #5E5E5E;">*</span> <span class="dv" style="color: #AD0000;">5</span></span>
+<span id="cb1-16">lowerlimits <span class="op" style="color: #5E5E5E;">=</span> [<span class="va" style="color: #111111;">False</span>, <span class="va" style="color: #111111;">True</span>] <span class="op" style="color: #5E5E5E;">*</span> <span class="dv" style="color: #AD0000;">5</span></span>
+<span id="cb1-17">plt.errorbar(x, y, yerr<span class="op" style="color: #5E5E5E;">=</span>yerr, uplims<span class="op" style="color: #5E5E5E;">=</span>upperlimits, lolims<span class="op" style="color: #5E5E5E;">=</span>lowerlimits,</span>
+<span id="cb1-18">             label<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">'subsets of uplims and lolims'</span>)</span>
+<span id="cb1-19">plt.xlabel(<span class="st" style="color: #20794D;">"X_axis_title"</span>)</span>
+<span id="cb1-20">plt.ylabel(<span class="st" style="color: #20794D;">"Y axis title"</span>)</span>
+<span id="cb1-21">plt.legend(loc<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">'lower right'</span>)</span>
+<span id="cb1-22">plt.show(fig)</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div id="fig-limits" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://www.diantwood.github.io/posts/00_welcome/first blog_files/figure-html/fig-limits-output-1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: Errorbar limit selection</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<p>As you can see from above, the easyness to include plots and Japanese makes it worth documenting all this online for others to see. But it also proverbially kills two birds with one stone.</p>
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1">?plt</span></code></pre></div>
+</details>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <category>personal</category>
+  <guid>https://www.diantwood.github.io/posts/00_welcome/first blog.html</guid>
+  <pubDate>Mon, 30 Jan 2023 14:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Post With Code</title>
   <dc:creator>Harlow Malloc</dc:creator>
@@ -31,27 +127,6 @@
   <guid>https://www.diantwood.github.io/posts/post-with-code/index.html</guid>
   <pubDate>Sun, 29 Jan 2023 14:00:00 GMT</pubDate>
   <media:content url="https://www.diantwood.github.io/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Welcome To My Blog</title>
-  <dc:creator>Tristan O&#39;Malley</dc:creator>
-  <link>https://www.diantwood.github.io/posts/welcome/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://www.diantwood.github.io/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <guid>https://www.diantwood.github.io/posts/welcome/index.html</guid>
-  <pubDate>Thu, 26 Jan 2023 14:00:00 GMT</pubDate>
-  <media:content url="https://www.diantwood.github.io/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

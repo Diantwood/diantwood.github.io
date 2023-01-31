@@ -1,8 +1,8 @@
 ---
-title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2023-01-27"
-categories: [news]
+title: "What can you expect from this blog"
+author: "Alex Dian"
+date: "31-01-2023"
+categories: [news,personal]
 ---
 
 This is the first post in a Quarto blog. Welcome!

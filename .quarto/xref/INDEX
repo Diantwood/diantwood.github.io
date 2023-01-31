@@ -10,5 +10,15 @@
   },
   "posts/welcome/index.qmd": {
     "index.html": "bf424867"
+  },
+  "docs/posts/00_Welcome/Welcoming Blog.ipynb": {
+    "Welcoming Blog.html": "035e6fb6"
+  },
+  "posts/00_welcome/Untitled.ipynb": {
+    "Untitled.html": "f00152bd"
+  },
+  "posts/00_welcome/first blog.ipynb": {
+    "first blog.html": "7008d0b9",
+    "first-blog.tex": "205fd751"
   }
 }
