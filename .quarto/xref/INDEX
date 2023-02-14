@@ -20,5 +20,8 @@
   "posts/00_welcome/first blog.ipynb": {
     "first blog.html": "7008d0b9",
     "first-blog.tex": "205fd751"
+  },
+  "posts/01_610Words/index.qmd": {
+    "index.html": "b55a6787"
   }
 }
