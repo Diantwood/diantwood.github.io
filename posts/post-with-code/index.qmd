@@ -1,9 +1,65 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
-date: "2023-01-30"
-categories: [news, code, analysis]
-image: "image.jpg"
+title: "30 minutes, 610 Words"
+author: "Alex Dian"
+date: "2023-02-14"
+categories: [writing, challenge, personal]
+image: "calvin.jpg"
 ---
+# Setting the Scene
 
-This is a post with executable code.
+From the Cultural Tutor, this idea came. I think it'll help with blogging. We'll......see :) 
+
+See below the excerpt from the Areopagus Volume XXXV. 
+
+> It's quite simple and good fun. Pick a theme or question. It could be anything at all. Write down your chosen topic. And then, starting afresh each time:
+>
+> * Give yourself ten minutes to write five hundred words about it.
+> * Give yourself ten minutes to write one hundred words about it.
+> * Finally, give yourself ten minutes to write ten words about it.
+>
+> This is an effective way of whittling down your ideas to what is truly most important about them. Often we're not sure what we really think, and it's incredibly hard to figure it out in our heads. Even when we try to write it down our thoughts can spill out over far too many pages and lose coherence. But this exercise is like a formula for getting to the crux of things. It's also a reminder of how much power just a few carefully selected words can have.
+>
+So if you're struggling to figure out what you think about something - whether a personal problem or a political conundrum - or you just want to improve your writing skills, this little exercise may come in handy.
+
+# My Attempt
+Now it begs the question. What shall be my first writing attempt?
+
+I'm going to go with something that people have been asking a lot of me recently. The topic question is:
+
+::: {.callout-tip}
+## **What do I want to get out of my trip to Japan?**
+
+:::
+### 500 Words
+Japan… It has been the elusive goal of most of my childhood. Though, I don’t think I ever imagined the circumstances that I would be going to Japan under. Nor, do I think that my goals and wants are the same as when I was kid. I first wanted to go because it was different. It has this allure of technology, anime, city living, and interesting cultural activities. All of the stuff I have now learned, during my times at uni, as what Japan advertises as their ‘Cool Japan’. 
+But now, while I don’t think completely gone, I no longer care for all that. It’s weird, I don’t seem to care for Japan at all. But rather I care for just trying something different. Something overseas. Something away. 
+I am going to Japan as part of an internship to work at Kyushu University as a research assistant to fabricate OLEDs. I’ll be doing that for 2 months and then I’ll be travelling from Fukuoka to Tokyo over the 3 weeks. The first two months, I imagine, would consist of 8-10 hour days fabricating OLEDs Mon-Fri. Weirdly though, I don’t care much for it. I am most excited to gym every morning at the hotel before I start. I am keen to explore the locations around the university and the hotel after my job. I want to look for some hole-in-the-wall that just has either the most absurd food, décor, or cultural difference. And then on the weekend, I hope that I get to travel to different stuff roughly around Fukuoka in Kyushu. Whether that be a tour of a steel factory, or a car factory, or conventions, or night life. I hope to get locals to tell me the cool stuff to do, but also make my own discovery. 
+That is what I hope to get out of those two months. And as you might’ve picked up, it all is just small, innocuous stuff. And for some reason, that fills me with anxiety and dread. Like I am lying to who I am. I’d say I am still holding on to goals and wants of the past. But it’s a tiny tangent – I’ll leave it to another blog entry. 
+When I go travelling with Spencer (after the two months of work), I want to go cruising in a car, explore nature more, try various food – and of course to just find the weirdest and unique experience. 
+To bring this to an abrupt end, I think what I want to get out of Japan is an experience of difference. I of course want to have said that I learned a lot in Japan and research assistant is an unbelievable life experience.  But I think I could do without, ya feel?  
+
+::: {.callout-note}
+This took me roughly 22 minutes to write 470 words.
+:::
+
+### 100 Words
+
+I want to do all the things I do here in Australia, but in Japan. I want to gym every morning. I want to play basketball. I want the joy of finding and experience a unique hole-in-the-wall. I want to do something left-of-field: something that I wouldn’t expect to happen. Imagine I play basketball seriously in Japan. Maybe that’s what I am aiming for: random, unexpected opportunities. That when I return, I’ll have bountiful stories to share and fondly look back on. I think for the sake of looking grateful, I need to mention that I want to be able to speak Japanese by the end. 
+
+::: {.callout-note}
+This took me roughly 10 minutes to write 106 words.
+:::
+
+### 10 words
+Something quirky I’d cherish forever -- to share at dinner parties.
+
+::: {.callout-note}
+This took me roughly 5 minutes to write 10 words.
+:::
+
+## Reflection
+I like the exercise. It does help to really sieve out the useless stuff. And because I just over-explained, I get the sense that I've cut the fat, rather than missing substance. 
+
+Though, I must say that in doing this exercise, it amplifies two things. First, it amplifies that I am very indecisive. I am constantly worried that it isn’t how I actually feel. That there is a better option or feeling that I am missing. Second, it does reinforce part of me does in fact like the being a bit quirky. 
+
+
