@@ -10,7 +10,167 @@
 <atom:link href="https://www.diantwood.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog for Dian</description>
 <generator>quarto-1.2.313</generator>
-<lastBuildDate>Mon, 13 Feb 2023 14:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 17 Feb 2023 14:00:00 GMT</lastBuildDate>
+<item>
+  <title>2023 Pub Crawl</title>
+  <dc:creator>Alex Dian</dc:creator>
+  <link>https://www.diantwood.github.io/posts/02_PubCrawl2023/pubcrawl.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="welcome-to-civils-2023-birthdayfarewell-pubcrawl" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Welcome to Civil’s 2023 Birthday/Farewell PubCrawl</h1>
+<div class="cell" data-execution_count="4">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;">from</span> ipyleaflet <span class="im" style="color: #00769E;">import</span> Map, Marker</span>
+<span id="cb1-2"></span>
+<span id="cb1-3">center <span class="op" style="color: #5E5E5E;">=</span> (<span class="fl" style="color: #AD0000;">52.204793</span>, <span class="fl" style="color: #AD0000;">360.121558</span>)</span>
+<span id="cb1-4"></span>
+<span id="cb1-5">m <span class="op" style="color: #5E5E5E;">=</span> Map(center<span class="op" style="color: #5E5E5E;">=</span>center, zoom<span class="op" style="color: #5E5E5E;">=</span><span class="dv" style="color: #AD0000;">15</span>)</span>
+<span id="cb1-6"></span>
+<span id="cb1-7">marker <span class="op" style="color: #5E5E5E;">=</span> Marker(location<span class="op" style="color: #5E5E5E;">=</span>center, draggable<span class="op" style="color: #5E5E5E;">=</span><span class="va" style="color: #111111;">True</span>)</span>
+<span id="cb1-8">m.add_layer(marker)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb1-9"></span>
+<span id="cb1-10">display(m)</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id":"066a230f977f4c7b8535d3fefc7a1167","version_major":2,"version_minor":0}
+</script>
+</div>
+</div>
+<div class="cell" data-execution_count="2">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1">m</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id":"5f76f9bc7b584b729372f047c64d33b7","version_major":2,"version_minor":0}
+</script>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Event</category>
+  <category>Friends</category>
+  <category>Personal</category>
+  <guid>https://www.diantwood.github.io/posts/02_PubCrawl2023/pubcrawl.html</guid>
+  <pubDate>Fri, 17 Feb 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://www.diantwood.github.io/posts/02_PubCrawl2023/drinking.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>30 minutes, 610 Words: Fulfillment</title>
+  <dc:creator>Alex Dian</dc:creator>
+  <link>https://www.diantwood.github.io/posts/03_fulfillment/fulfillment.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>What makes you fulfilled? This is the question I explore in today’s attempt at 610 words.</p>
+<section id="leaning-in" class="level1">
+<h1>Leaning in</h1>
+<p>A couple of days ago, I wrote a blog that was my attempt at completing a challenge from the Areopagus Volume XXXV. If you want context for it, go to that blog.</p>
+<p>There are two things that I want to add before I begin. First is the idea of how fun it is to not only share my attempts, but ask others for their attempts. I think I need more data for this to say anymore than I just like it, but, hey, it might end up as a future 610 words topic.</p>
+<p>And secondly is that I partially want to write these challenges with a specific reader in mind. I feel like writing for me versus writing for someone else changes what I want to write about. Again, there is something here about a big part of my life is relationships with others and/or their thoughts/opinions. But also maybe another weeks topic – I am sure all of these personal questions will reveal this.</p>
+</section>
+<section id="words" class="level1">
+<h1>610 Words</h1>
+<p>I can’t remember what inspired today’s topic, but my mind is leaning towards a meme – usually all of my yureka moments are from memes. The topic is fulfillment. Again it is broad, but I guess you’ll see my thoughts on the matter. And away we go!</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+<strong>What would bring me fulfillment?</strong>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<section id="words-1" class="level3">
+<h3 class="anchored" data-anchor-id="words-1">500 Words</h3>
+<p>My first thought is that I don’t have all that lofty aspirations. While I do wish to exceed and achieve in life, whether that is leading a company or being a pivotal role in something important, ultimately, I think I lean towards the smaller things in life. Where my mind goes, is to small-scale goals that I didn’t think I’d accomplish. But I want to make a pivot to understand what I find fulfilling, but first asking if there is anything in my life that I have done that has fulfilled me. If I died tomorrow, would I be fulfilled?</p>
+<p>If I died tomorrow, I think I would look back upon my life in ambivalence. In one sense, I am proud in the way that I lived my life. I tried in everything that I have done. I sincerely try. I value trying. And I value having fun while doing it. In a sense, I’d say that in trying I have fun. But on the other hand, I would say that I haven’t tried enough. There is more left to do. I’ve spent most of my life gaming. And while, not inherently bad or a waste of time – making friends or as the recent book (Games: Agency as Art) put it: trying on various agency/goals – I think that games aren’t what I value in terms of fulfillment. I’d love to keep on trying my hardest, earnestly and with vigour, on so many more things. Travelling, learning to drive, hands-on activities (construction/housework): these are the first, and certainly not last, things to come to mind. But do I think they will bring me fulfillment? I also don’t think so.</p>
+<p>Instead, let’s now look way into the future to when I am on my deathbed. What then will I have wished to have done. I want to have worked hard at whatever job I do. I want to have raised a good family. I want to have been proud to have carried on the Civil name. And herein I think lies something that is interesting.</p>
+<p>When I was younger, I had this motto and life goal to be the “Number #1 Person”. It was simple: be the very best person I can be. Healthy (big muscles), very intelligent, emotionally intelligent, generous, and successful. Looking back on it, this attitude is probably the cause for some of my problems. But, anyway, now I think I want to be “the embodiment of a Civil”. Now this obviously needs deconstruction, but to keep things short… but it’s another way of saying being the best version of myself.</p>
+<p>So, to connect it all together. I would be fulfilled, both day-to-day fulfillment and retrospection fulfilment, if I was able to live, with passion and sincerity, as a Civil – as myself.</p>
+<p>I can see that I’ve danced around the answer to the question. I’ve provided an answer but haven’t expounded. Maybe that is the glory of a few words is that I don’t need to explain.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This took me roughly 24 minutes to write 500 words.</p>
+</div>
+</div>
+</section>
+<section id="words-2" class="level3">
+<h3 class="anchored" data-anchor-id="words-2">100 Words</h3>
+<p>I am unsure that if I were to live day-to-day being fulfilled, I would end up having lived a fulfilling life. In other words, are the sum of the parts less, equal, or greater than the whole? Part of me answers ‘less’ because there is a chance, I missed the bigger picture. The other part of me says that by nature of living day-to-day means despite the life changes, I ultimately will be proud of my life. And that I couldn’t have asked to live a better life. For now, I’ll declare the latter opinion the winner.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This took me roughly 10 minutes to write 97 words.</p>
+</div>
+</div>
+</section>
+<section id="words-3" class="level3">
+<h3 class="anchored" data-anchor-id="words-3">10 words</h3>
+<p>Earnestly trying every moment to do Good.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This took me roughly 6 minutes to write 7 words.</p>
+</div>
+</div>
+</section>
+<section id="reflection" class="level2">
+<h2 class="anchored" data-anchor-id="reflection">Reflection</h2>
+<p>Those last seven words a very poignant to me. And I think if we looked at my life through this lens, it would make a lot of sense. The first connection I want to make is that these theme of ‘doing Good’ (note the capital G is intentional) is the essence of Lord of the Rings. In it the Hobbits are striving only to do the right (Good) thing. And it so happens that it was thrust upon Frodo and Sam to carry the ring. But it was the Good choice. Those movies tell us that the heroic thing to do is to not give into evil: to do good. And those most capable of that are the hobbits – the wholesome, simple-living hobbits. These are the heroes of that tale. I think both LotR influenced my values and that my values make it why I like LotR.</p>
+<p>And the other connection is trying. I vehemently disagree with those who give up. Those who refuse to improve or try or settle for anything less. Those who give into evil. While it is a bit drastic to equate giving up to evil, and it isn’t one-to-one, I think there is nuanced take that not trying is a sin.</p>
+<p>To all those who earnestly try to do Good: you bow to no one.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>writing</category>
+  <category>challenge</category>
+  <category>personal</category>
+  <guid>https://www.diantwood.github.io/posts/03_fulfillment/fulfillment.html</guid>
+  <pubDate>Tue, 14 Feb 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://www.diantwood.github.io/posts/03_fulfillment/fulfillment.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>30 minutes, 610 Words</title>
   <dc:creator>Alex Dian</dc:creator>

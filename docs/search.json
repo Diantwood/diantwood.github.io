@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "Dian’s Blog",
     "section": "",
-    "text": "30 minutes, 610 Words\n\n\n\n\n\n\n\nwriting\n\n\nchallenge\n\n\npersonal\n\n\n\n\n\n\n\n\n\n\n\nFeb 14, 2023\n\n\nAlex Dian\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is to Come?\n\n\n\n\n\n\n\nnews\n\n\npersonal\n\n\n\n\n\n\n\n\n\n\n\nJan 31, 2023\n\n\nAlex Dian\n\n\n\n\n\n\nNo matching items"
+    "text": "2023 Pub Crawl\n\n\n\n\n\n\n\nEvent\n\n\nFriends\n\n\nPersonal\n\n\n\n\n\n\n\n\n\n\n\nFeb 18, 2023\n\n\nAlex Dian\n\n\n\n\n\n\n  \n\n\n\n\n30 minutes, 610 Words: Fulfillment\n\n\n\n\n\n\n\nwriting\n\n\nchallenge\n\n\npersonal\n\n\n\n\n\n\n\n\n\n\n\nFeb 15, 2023\n\n\nAlex Dian\n\n\n\n\n\n\n  \n\n\n\n\n30 minutes, 610 Words\n\n\n\n\n\n\n\nwriting\n\n\nchallenge\n\n\npersonal\n\n\n\n\n\n\n\n\n\n\n\nFeb 14, 2023\n\n\nAlex Dian\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is to Come?\n\n\n\n\n\n\n\nnews\n\n\npersonal\n\n\n\n\n\n\n\n\n\n\n\nJan 31, 2023\n\n\nAlex Dian\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/00_welcome/first blog.html",
@@ -47,5 +47,26 @@
     "title": "30 minutes, 610 Words",
     "section": "Reflection",
     "text": "Reflection\nI like the exercise. It does help to really sieve out the useless stuff. And because I just over-explained, I get the sense that I’ve cut the fat, rather than missing substance.\nThough, I must say that in doing this exercise, it amplifies two things. First, it amplifies that I am very indecisive. I am constantly worried that it isn’t how I actually feel. That there is a better option or feeling that I am missing. Second, it does reinforce part of me does in fact like the being a bit quirky."
+  },
+  {
+    "objectID": "posts/02_PubCrawl2023/pubcrawl.html",
+    "href": "posts/02_PubCrawl2023/pubcrawl.html",
+    "title": "2023 Pub Crawl",
+    "section": "",
+    "text": "1 Welcome to Civil’s 2023 Birthday/Farewell PubCrawl\n\n\nCode\nfrom ipyleaflet import Map, Marker\n\ncenter = (52.204793, 360.121558)\n\nm = Map(center=center, zoom=15)\n\nmarker = Marker(location=center, draggable=True)\nm.add_layer(marker);\n\ndisplay(m)\n\n\n\n\n\n\n\nCode\nm"
+  },
+  {
+    "objectID": "posts/03_fulfillment/fulfillment.html",
+    "href": "posts/03_fulfillment/fulfillment.html",
+    "title": "30 minutes, 610 Words: Fulfillment",
+    "section": "",
+    "text": "What makes you fulfilled? This is the question I explore in today’s attempt at 610 words."
+  },
+  {
+    "objectID": "posts/03_fulfillment/fulfillment.html#reflection",
+    "href": "posts/03_fulfillment/fulfillment.html#reflection",
+    "title": "30 minutes, 610 Words: Fulfillment",
+    "section": "Reflection",
+    "text": "Reflection\nThose last seven words a very poignant to me. And I think if we looked at my life through this lens, it would make a lot of sense. The first connection I want to make is that these theme of ‘doing Good’ (note the capital G is intentional) is the essence of Lord of the Rings. In it the Hobbits are striving only to do the right (Good) thing. And it so happens that it was thrust upon Frodo and Sam to carry the ring. But it was the Good choice. Those movies tell us that the heroic thing to do is to not give into evil: to do good. And those most capable of that are the hobbits – the wholesome, simple-living hobbits. These are the heroes of that tale. I think both LotR influenced my values and that my values make it why I like LotR.\nAnd the other connection is trying. I vehemently disagree with those who give up. Those who refuse to improve or try or settle for anything less. Those who give into evil. While it is a bit drastic to equate giving up to evil, and it isn’t one-to-one, I think there is nuanced take that not trying is a sin.\nTo all those who earnestly try to do Good: you bow to no one."
   }
 ]

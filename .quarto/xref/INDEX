@@ -23,5 +23,11 @@
   },
   "posts/01_610Words/index.qmd": {
     "index.html": "b55a6787"
+  },
+  "posts/02_PubCrawl2023/pubcrawl.ipynb": {
+    "pubcrawl.html": "2815fe80"
+  },
+  "posts/03_fulfillment/fulfillment.qmd": {
+    "fulfillment.html": "32e62b1a"
   }
 }
