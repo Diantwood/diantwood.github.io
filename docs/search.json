@@ -53,7 +53,7 @@
     "href": "posts/02_PubCrawl2023/pubcrawl.html",
     "title": "2023 Pub Crawl",
     "section": "",
-    "text": "1 Welcome to Civil’s 2023 Birthday/Farewell PubCrawl\n\n\nCode\nfrom ipyleaflet import Map, Marker\n\ncenter = (52.204793, 360.121558)\n\nm = Map(center=center, zoom=15)\n\nmarker = Marker(location=center, draggable=True)\nm.add_layer(marker);\n\ndisplay(m)\n\n\n\n\n\n\n\nCode\nm"
+    "text": "1 Welcome to Civil’s 2023 Birthday/Farewell PubCrawl\n\n\nCode\nfrom ipyleaflet import Map, Marker\n\ncenter = (52.204793, 360.121558)\n\nm = Map(center=center, zoom=15)\n\nmarker = Marker(location=center, draggable=True)\nm.add_layer(marker);\n\ndisplay(m)\n\n\n\n\n\n\n\nCode\nimport plotly.express as px\nimport plotly.io as pio\ndf = px.data.iris()\nfig = px.scatter(df, x=\"sepal_width\", y=\"sepal_length\", \n                 color=\"species\", \n                 marginal_y=\"violin\", marginal_x=\"box\", \n                 trendline=\"ols\", template=\"simple_white\")\nfig.show()\n\n\n\n                                                \n\n\n\n\nCode\n\n\n\nSyntaxError: invalid syntax (2123809854.py, line 3)"
   },
   {
     "objectID": "posts/03_fulfillment/fulfillment.html",
