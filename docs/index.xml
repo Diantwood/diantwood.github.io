@@ -10,99 +10,43 @@
 <atom:link href="https://www.diantwood.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog for Dian</description>
 <generator>quarto-1.2.313</generator>
-<lastBuildDate>Fri, 17 Feb 2023 14:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 27 Mar 2023 15:00:00 GMT</lastBuildDate>
 <item>
-  <title>2023 Pub Crawl</title>
+  <title>Art and what it is for</title>
   <dc:creator>Alex Dian</dc:creator>
-  <link>https://www.diantwood.github.io/posts/02_PubCrawl2023/pubcrawl.html</link>
+  <link>https://www.diantwood.github.io/posts/04_Art/art.html</link>
   <description><![CDATA[ 
 
 
 
 
-<section id="welcome-to-civils-2023-birthdayfarewell-pubcrawl" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome to Civil’s 2023 Birthday/Farewell PubCrawl</h1>
-<div class="cell">
-<details>
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;">from</span> ipyleaflet <span class="im" style="color: #00769E;">import</span> Map, Marker</span>
-<span id="cb1-2"></span>
-<span id="cb1-3">center <span class="op" style="color: #5E5E5E;">=</span> (<span class="fl" style="color: #AD0000;">52.204793</span>, <span class="fl" style="color: #AD0000;">360.121558</span>)</span>
-<span id="cb1-4"></span>
-<span id="cb1-5">m <span class="op" style="color: #5E5E5E;">=</span> Map(center<span class="op" style="color: #5E5E5E;">=</span>center, zoom<span class="op" style="color: #5E5E5E;">=</span><span class="dv" style="color: #AD0000;">15</span>)</span>
-<span id="cb1-6"></span>
-<span id="cb1-7">marker <span class="op" style="color: #5E5E5E;">=</span> Marker(location<span class="op" style="color: #5E5E5E;">=</span>center, draggable<span class="op" style="color: #5E5E5E;">=</span><span class="va" style="color: #111111;">True</span>)</span>
-<span id="cb1-8">m.add_layer(marker)<span class="op" style="color: #5E5E5E;">;</span></span>
-<span id="cb1-9"></span>
-<span id="cb1-10">display(m)</span></code></pre></div>
-</details>
-<div class="cell-output cell-output-display">
-<script type="application/vnd.jupyter.widget-view+json">
-{"model_id":"b78bcbcc7b5a4eab9172ed597dd9067f","version_major":2,"version_minor":0}
-</script>
-</div>
-</div>
-<div class="cell">
-<details>
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;">import</span> plotly.express <span class="im" style="color: #00769E;">as</span> px</span>
-<span id="cb2-2"><span class="im" style="color: #00769E;">import</span> plotly.io <span class="im" style="color: #00769E;">as</span> pio</span>
-<span id="cb2-3">df <span class="op" style="color: #5E5E5E;">=</span> px.data.iris()</span>
-<span id="cb2-4">fig <span class="op" style="color: #5E5E5E;">=</span> px.scatter(df, x<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">"sepal_width"</span>, y<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">"sepal_length"</span>, </span>
-<span id="cb2-5">                 color<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">"species"</span>, </span>
-<span id="cb2-6">                 marginal_y<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">"violin"</span>, marginal_x<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">"box"</span>, </span>
-<span id="cb2-7">                 trendline<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">"ols"</span>, template<span class="op" style="color: #5E5E5E;">=</span><span class="st" style="color: #20794D;">"simple_white"</span>)</span>
-<span id="cb2-8">fig.show()</span></code></pre></div>
-</details>
-<div class="cell-output cell-output-display">
-
-<div>                            <div id="79767252-8c94-442b-bc9d-5ccaa6fded60" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("79767252-8c94-442b-bc9d-5ccaa6fded60")) {                    Plotly.newPlot(                        "79767252-8c94-442b-bc9d-5ccaa6fded60",                        [{"hovertemplate":"species=setosa<br>sepal_width=%{x}<br>sepal_length=%{y}<extra></extra>","legendgroup":"setosa","marker":{"color":"#1F77B4","symbol":"circle"},"mode":"markers","name":"setosa","orientation":"v","showlegend":true,"x":[3.5,3.0,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1,3.7,3.4,3.0,3.0,4.0,4.4,3.9,3.5,3.8,3.8,3.4,3.7,3.6,3.3,3.4,3.0,3.4,3.5,3.4,3.2,3.1,3.4,4.1,4.2,3.1,3.2,3.5,3.1,3.0,3.4,3.5,2.3,3.2,3.5,3.8,3.0,3.8,3.2,3.7,3.3],"xaxis":"x","y":[5.1,4.9,4.7,4.6,5.0,5.4,4.6,5.0,4.4,4.9,5.4,4.8,4.8,4.3,5.8,5.7,5.4,5.1,5.7,5.1,5.4,5.1,4.6,5.1,4.8,5.0,5.0,5.2,5.2,4.7,4.8,5.4,5.2,5.5,4.9,5.0,5.5,4.9,4.4,5.1,5.0,4.5,4.4,5.0,5.1,4.8,5.1,4.6,5.3,5.0],"yaxis":"y","type":"scatter"},{"alignmentgroup":"True","hovertemplate":"species=setosa<br>sepal_width=%{x}<extra></extra>","legendgroup":"setosa","marker":{"color":"#1F77B4","symbol":"circle"},"name":"setosa","notched":true,"offsetgroup":"setosa","showlegend":false,"x":[3.5,3.0,3.2,3.1,3.6,3.9,3.4,3.4,2.9,3.1,3.7,3.4,3.0,3.0,4.0,4.4,3.9,3.5,3.8,3.8,3.4,3.7,3.6,3.3,3.4,3.0,3.4,3.5,3.4,3.2,3.1,3.4,4.1,4.2,3.1,3.2,3.5,3.1,3.0,3.4,3.5,2.3,3.2,3.5,3.8,3.0,3.8,3.2,3.7,3.3],"xaxis":"x3","yaxis":"y3","type":"box"},{"alignmentgroup":"True","hovertemplate":"species=setosa<br>sepal_length=%{y}<extra></extra>","legendgroup":"setosa","marker":{"color":"#1F77B4","symbol":"circle"},"name":"setosa","offsetgroup":"setosa","scalegroup":"y","showlegend":false,"xaxis":"x2","y":[5.1,4.9,4.7,4.6,5.0,5.4,4.6,5.0,4.4,4.9,5.4,4.8,4.8,4.3,5.8,5.7,5.4,5.1,5.7,5.1,5.4,5.1,4.6,5.1,4.8,5.0,5.0,5.2,5.2,4.7,4.8,5.4,5.2,5.5,4.9,5.0,5.5,4.9,4.4,5.1,5.0,4.5,4.4,5.0,5.1,4.8,5.1,4.6,5.3,5.0],"yaxis":"y2","type":"violin"},{"hovertemplate":"<b>OLS trendline</b><br>sepal_length = 0.690854 * sepal_width + 2.64466<br>R<sup>2</sup>=0.557681<br><br>species=setosa<br>sepal_width=%{x}<br>sepal_length=%{y} <b>(trend)</b><extra></extra>","legendgroup":"setosa","marker":{"color":"#1F77B4","symbol":"circle"},"mode":"lines","name":"setosa","showlegend":false,"x":[2.3,2.9,3.0,3.0,3.0,3.0,3.0,3.0,3.1,3.1,3.1,3.1,3.1,3.2,3.2,3.2,3.2,3.2,3.3,3.3,3.4,3.4,3.4,3.4,3.4,3.4,3.4,3.4,3.4,3.5,3.5,3.5,3.5,3.5,3.5,3.6,3.6,3.7,3.7,3.7,3.8,3.8,3.8,3.8,3.9,3.9,4.0,4.1,4.2,4.4],"xaxis":"x","y":[4.233624785627933,4.648137423036914,4.717222862605077,4.717222862605077,4.717222862605077,4.717222862605077,4.717222862605077,4.717222862605077,4.78630830217324,4.78630830217324,4.78630830217324,4.78630830217324,4.78630830217324,4.855393741741404,4.855393741741404,4.855393741741404,4.855393741741404,4.855393741741404,4.924479181309566,4.924479181309566,4.993564620877731,4.993564620877731,4.993564620877731,4.993564620877731,4.993564620877731,4.993564620877731,4.993564620877731,4.993564620877731,4.993564620877731,5.062650060445893,5.062650060445893,5.062650060445893,5.062650060445893,5.062650060445893,5.062650060445893,5.131735500014058,5.131735500014058,5.20082093958222,5.20082093958222,5.20082093958222,5.269906379150384,5.269906379150384,5.269906379150384,5.269906379150384,5.338991818718547,5.338991818718547,5.408077258286711,5.477162697854874,5.546248137423038,5.684419016559365],"yaxis":"y","type":"scatter"},{"hovertemplate":"species=versicolor<br>sepal_width=%{x}<br>sepal_length=%{y}<extra></extra>","legendgroup":"versicolor","marker":{"color":"#FF7F0E","symbol":"circle"},"mode":"markers","name":"versicolor","orientation":"v","showlegend":true,"x":[3.2,3.2,3.1,2.3,2.8,2.8,3.3,2.4,2.9,2.7,2.0,3.0,2.2,2.9,2.9,3.1,3.0,2.7,2.2,2.5,3.2,2.8,2.5,2.8,2.9,3.0,2.8,3.0,2.9,2.6,2.4,2.4,2.7,2.7,3.0,3.4,3.1,2.3,3.0,2.5,2.6,3.0,2.6,2.3,2.7,3.0,2.9,2.9,2.5,2.8],"xaxis":"x","y":[7.0,6.4,6.9,5.5,6.5,5.7,6.3,4.9,6.6,5.2,5.0,5.9,6.0,6.1,5.6,6.7,5.6,5.8,6.2,5.6,5.9,6.1,6.3,6.1,6.4,6.6,6.8,6.7,6.0,5.7,5.5,5.5,5.8,6.0,5.4,6.0,6.7,6.3,5.6,5.5,5.5,6.1,5.8,5.0,5.6,5.7,5.7,6.2,5.1,5.7],"yaxis":"y","type":"scatter"},{"alignmentgroup":"True","hovertemplate":"species=versicolor<br>sepal_width=%{x}<extra></extra>","legendgroup":"versicolor","marker":{"color":"#FF7F0E","symbol":"circle"},"name":"versicolor","notched":true,"offsetgroup":"versicolor","showlegend":false,"x":[3.2,3.2,3.1,2.3,2.8,2.8,3.3,2.4,2.9,2.7,2.0,3.0,2.2,2.9,2.9,3.1,3.0,2.7,2.2,2.5,3.2,2.8,2.5,2.8,2.9,3.0,2.8,3.0,2.9,2.6,2.4,2.4,2.7,2.7,3.0,3.4,3.1,2.3,3.0,2.5,2.6,3.0,2.6,2.3,2.7,3.0,2.9,2.9,2.5,2.8],"xaxis":"x3","yaxis":"y3","type":"box"},{"alignmentgroup":"True","hovertemplate":"species=versicolor<br>sepal_length=%{y}<extra></extra>","legendgroup":"versicolor","marker":{"color":"#FF7F0E","symbol":"circle"},"name":"versicolor","offsetgroup":"versicolor","scalegroup":"y","showlegend":false,"xaxis":"x2","y":[7.0,6.4,6.9,5.5,6.5,5.7,6.3,4.9,6.6,5.2,5.0,5.9,6.0,6.1,5.6,6.7,5.6,5.8,6.2,5.6,5.9,6.1,6.3,6.1,6.4,6.6,6.8,6.7,6.0,5.7,5.5,5.5,5.8,6.0,5.4,6.0,6.7,6.3,5.6,5.5,5.5,6.1,5.8,5.0,5.6,5.7,5.7,6.2,5.1,5.7],"yaxis":"y2","type":"violin"},{"hovertemplate":"<b>OLS trendline</b><br>sepal_length = 0.865078 * sepal_width + 3.53973<br>R<sup>2</sup>=0.276582<br><br>species=versicolor<br>sepal_width=%{x}<br>sepal_length=%{y} <b>(trend)</b><extra></extra>","legendgroup":"versicolor","marker":{"color":"#FF7F0E","symbol":"circle"},"mode":"lines","name":"versicolor","showlegend":false,"x":[2.0,2.2,2.2,2.3,2.3,2.3,2.4,2.4,2.4,2.5,2.5,2.5,2.5,2.6,2.6,2.6,2.7,2.7,2.7,2.7,2.7,2.8,2.8,2.8,2.8,2.8,2.8,2.9,2.9,2.9,2.9,2.9,2.9,2.9,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.1,3.1,3.1,3.2,3.2,3.2,3.3,3.4],"xaxis":"x","y":[5.269890155440414,5.442905699481865,5.442905699481865,5.52941347150259,5.52941347150259,5.52941347150259,5.6159212435233155,5.6159212435233155,5.6159212435233155,5.702429015544041,5.702429015544041,5.702429015544041,5.702429015544041,5.788936787564767,5.788936787564767,5.788936787564767,5.8754445595854925,5.8754445595854925,5.8754445595854925,5.8754445595854925,5.8754445595854925,5.961952331606217,5.961952331606217,5.961952331606217,5.961952331606217,5.961952331606217,5.961952331606217,6.048460103626942,6.048460103626942,6.048460103626942,6.048460103626942,6.048460103626942,6.048460103626942,6.048460103626942,6.134967875647668,6.134967875647668,6.134967875647668,6.134967875647668,6.134967875647668,6.134967875647668,6.134967875647668,6.134967875647668,6.2214756476683934,6.2214756476683934,6.2214756476683934,6.307983419689119,6.307983419689119,6.307983419689119,6.394491191709845,6.4809989637305705],"yaxis":"y","type":"scatter"},{"hovertemplate":"species=virginica<br>sepal_width=%{x}<br>sepal_length=%{y}<extra></extra>","legendgroup":"virginica","marker":{"color":"#2CA02C","symbol":"circle"},"mode":"markers","name":"virginica","orientation":"v","showlegend":true,"x":[3.3,2.7,3.0,2.9,3.0,3.0,2.5,2.9,2.5,3.6,3.2,2.7,3.0,2.5,2.8,3.2,3.0,3.8,2.6,2.2,3.2,2.8,2.8,2.7,3.3,3.2,2.8,3.0,2.8,3.0,2.8,3.8,2.8,2.8,2.6,3.0,3.4,3.1,3.0,3.1,3.1,3.1,2.7,3.2,3.3,3.0,2.5,3.0,3.4,3.0],"xaxis":"x","y":[6.3,5.8,7.1,6.3,6.5,7.6,4.9,7.3,6.7,7.2,6.5,6.4,6.8,5.7,5.8,6.4,6.5,7.7,7.7,6.0,6.9,5.6,7.7,6.3,6.7,7.2,6.2,6.1,6.4,7.2,7.4,7.9,6.4,6.3,6.1,7.7,6.3,6.4,6.0,6.9,6.7,6.9,5.8,6.8,6.7,6.7,6.3,6.5,6.2,5.9],"yaxis":"y","type":"scatter"},{"alignmentgroup":"True","hovertemplate":"species=virginica<br>sepal_width=%{x}<extra></extra>","legendgroup":"virginica","marker":{"color":"#2CA02C","symbol":"circle"},"name":"virginica","notched":true,"offsetgroup":"virginica","showlegend":false,"x":[3.3,2.7,3.0,2.9,3.0,3.0,2.5,2.9,2.5,3.6,3.2,2.7,3.0,2.5,2.8,3.2,3.0,3.8,2.6,2.2,3.2,2.8,2.8,2.7,3.3,3.2,2.8,3.0,2.8,3.0,2.8,3.8,2.8,2.8,2.6,3.0,3.4,3.1,3.0,3.1,3.1,3.1,2.7,3.2,3.3,3.0,2.5,3.0,3.4,3.0],"xaxis":"x3","yaxis":"y3","type":"box"},{"alignmentgroup":"True","hovertemplate":"species=virginica<br>sepal_length=%{y}<extra></extra>","legendgroup":"virginica","marker":{"color":"#2CA02C","symbol":"circle"},"name":"virginica","offsetgroup":"virginica","scalegroup":"y","showlegend":false,"xaxis":"x2","y":[6.3,5.8,7.1,6.3,6.5,7.6,4.9,7.3,6.7,7.2,6.5,6.4,6.8,5.7,5.8,6.4,6.5,7.7,7.7,6.0,6.9,5.6,7.7,6.3,6.7,7.2,6.2,6.1,6.4,7.2,7.4,7.9,6.4,6.3,6.1,7.7,6.3,6.4,6.0,6.9,6.7,6.9,5.8,6.8,6.7,6.7,6.3,6.5,6.2,5.9],"yaxis":"y2","type":"violin"},{"hovertemplate":"<b>OLS trendline</b><br>sepal_length = 0.901534 * sepal_width + 3.90684<br>R<sup>2</sup>=0.209057<br><br>species=virginica<br>sepal_width=%{x}<br>sepal_length=%{y} <b>(trend)</b><extra></extra>","legendgroup":"virginica","marker":{"color":"#2CA02C","symbol":"circle"},"mode":"lines","name":"virginica","showlegend":false,"x":[2.2,2.5,2.5,2.5,2.5,2.6,2.6,2.7,2.7,2.7,2.7,2.8,2.8,2.8,2.8,2.8,2.8,2.8,2.8,2.9,2.9,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.0,3.1,3.1,3.1,3.1,3.2,3.2,3.2,3.2,3.2,3.3,3.3,3.3,3.4,3.4,3.6,3.8,3.8],"xaxis":"x","y":[5.890212315058278,6.160672658058946,6.160672658058946,6.160672658058946,6.160672658058946,6.250826105725835,6.250826105725835,6.3409795533927245,6.3409795533927245,6.3409795533927245,6.3409795533927245,6.431133001059612,6.431133001059612,6.431133001059612,6.431133001059612,6.431133001059612,6.431133001059612,6.431133001059612,6.431133001059612,6.521286448726501,6.521286448726501,6.6114398963933905,6.6114398963933905,6.6114398963933905,6.6114398963933905,6.6114398963933905,6.6114398963933905,6.6114398963933905,6.6114398963933905,6.6114398963933905,6.6114398963933905,6.6114398963933905,6.6114398963933905,6.70159334406028,6.70159334406028,6.70159334406028,6.70159334406028,6.791746791727169,6.791746791727169,6.791746791727169,6.791746791727169,6.791746791727169,6.881900239394058,6.881900239394058,6.881900239394058,6.9720536870609475,6.9720536870609475,7.152360582394726,7.332667477728503,7.332667477728503],"yaxis":"y","type":"scatter"}],                        {"template":{"data":{"barpolar":[{"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"bar":[{"error_x":{"color":"rgb(36,36,36)"},"error_y":{"color":"rgb(36,36,36)"},"marker":{"line":{"color":"white","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"carpet":[{"aaxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"baxis":{"endlinecolor":"rgb(36,36,36)","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"rgb(36,36,36)"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"choropleth"}],"contourcarpet":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"contourcarpet"}],"contour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"contour"}],"heatmapgl":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmapgl"}],"heatmap":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"heatmap"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2dcontour"}],"histogram2d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"histogram2d"}],"histogram":[{"marker":{"line":{"color":"white","width":0.6}},"type":"histogram"}],"mesh3d":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scattermapbox"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolargl"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterpolar"}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"},"colorscale":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"rgb(237,237,237)"},"line":{"color":"white"}},"header":{"fill":{"color":"rgb(217,217,217)"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":1,"tickcolor":"rgb(36,36,36)","ticks":"outside"}},"colorscale":{"diverging":[[0.0,"rgb(103,0,31)"],[0.1,"rgb(178,24,43)"],[0.2,"rgb(214,96,77)"],[0.3,"rgb(244,165,130)"],[0.4,"rgb(253,219,199)"],[0.5,"rgb(247,247,247)"],[0.6,"rgb(209,229,240)"],[0.7,"rgb(146,197,222)"],[0.8,"rgb(67,147,195)"],[0.9,"rgb(33,102,172)"],[1.0,"rgb(5,48,97)"]],"sequential":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]],"sequentialminus":[[0.0,"#440154"],[0.1111111111111111,"#482878"],[0.2222222222222222,"#3e4989"],[0.3333333333333333,"#31688e"],[0.4444444444444444,"#26828e"],[0.5555555555555556,"#1f9e89"],[0.6666666666666666,"#35b779"],[0.7777777777777778,"#6ece58"],[0.8888888888888888,"#b5de2b"],[1.0,"#fde725"]]},"colorway":["#1F77B4","#FF7F0E","#2CA02C","#D62728","#9467BD","#8C564B","#E377C2","#7F7F7F","#BCBD22","#17BECF"],"font":{"color":"rgb(36,36,36)"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"white","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"white","polar":{"angularaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","radialaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"scene":{"xaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"zaxis":{"backgroundcolor":"white","gridcolor":"rgb(232,232,232)","gridwidth":2,"linecolor":"rgb(36,36,36)","showbackground":true,"showgrid":false,"showline":true,"ticks":"outside","zeroline":false,"zerolinecolor":"rgb(36,36,36)"}},"shapedefaults":{"fillcolor":"black","line":{"width":0},"opacity":0.3},"ternary":{"aaxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"baxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"},"bgcolor":"white","caxis":{"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside"}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"},"yaxis":{"automargin":true,"gridcolor":"rgb(232,232,232)","linecolor":"rgb(36,36,36)","showgrid":false,"showline":true,"ticks":"outside","title":{"standoff":15},"zeroline":false,"zerolinecolor":"rgb(36,36,36)"}}},"xaxis":{"anchor":"y","domain":[0.0,0.7363],"title":{"text":"sepal_width"}},"yaxis":{"anchor":"x","domain":[0.0,0.7326],"title":{"text":"sepal_length"}},"xaxis2":{"anchor":"y2","domain":[0.7413,1.0],"matches":"x2","showticklabels":false,"showline":false,"ticks":""},"yaxis2":{"anchor":"x2","domain":[0.0,0.7326],"matches":"y","showticklabels":false},"xaxis3":{"anchor":"y3","domain":[0.0,0.7363],"matches":"x","showticklabels":false},"yaxis3":{"anchor":"x3","domain":[0.7426,1.0],"matches":"y3","showticklabels":false,"showline":false,"ticks":""},"xaxis4":{"anchor":"y4","domain":[0.7413,1.0],"matches":"x2","showticklabels":false,"showline":false,"ticks":""},"yaxis4":{"anchor":"x4","domain":[0.7426,1.0],"matches":"y3","showticklabels":false,"showline":false,"ticks":""},"legend":{"title":{"text":"species"},"tracegroupgap":0},"margin":{"t":60}},                        {"responsive": true}                    ).then(function(){
-                            
-var gd = document.getElementById('79767252-8c94-442b-bc9d-5ccaa6fded60');
-var x = new MutationObserver(function (mutations, observer) {{
-        var display = window.getComputedStyle(gd).display;
-        if (!display || display === 'none') {{
-            console.log([gd, 'removed!']);
-            Plotly.purge(gd);
-            observer.disconnect();
-        }}
-}});
-
-// Listen for the removal of the full notebook cells
-var notebookContainer = gd.closest('#notebook-container');
-if (notebookContainer) {{
-    x.observe(notebookContainer, {childList: true});
-}}
-
-// Listen for the clearing of the current output cell
-var outputEl = gd.closest('.output');
-if (outputEl) {{
-    x.observe(outputEl, {childList: true});
-}}
-
-                        })                };                });            </script>        </div>
-</div>
-</div>
-<div class="cell">
-<details>
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"></code></pre></div>
-</details>
-<div class="cell-output cell-output-error">
-<pre><code>SyntaxError: invalid syntax (2123809854.py, line 3)</code></pre>
-</div>
-</div>
+<p>In John’ Green’s Book “Antrhopocene in Review”, John writes “Sometimes, I need art to encourage me, as the Mountain Goats famously do in the chorus of “This Year,” with Darnielle shouting, “I am going to make it through this year if it kills me.” Other times, I only need art to accompany me.”</p>
+<p>These two sentences, along with many weeks of battling with the idea of what art is, have finally activated enough motivation in me to want to write it down. To put into words what art is and why it is valuable – at least in this point of my life.</p>
+<section id="art-is-communication" class="level1">
+<h1>Art is Communication</h1>
+<p>At its core, art is communication. I don’t think that all communication is art, but if you’re intending on saying <em>something</em> or listening for a message you may find art along the way. And the importance here is that art is bi-directional. There is no art if there is no speaker/receiver relationship. A speaker must send a message and a receier must listen – that process is the art. And each message conveys a meaning, a message, a feeling. Art can carry these rich and multi-modal messages unlike text can.</p>
+<p>Humans need to connect with each other. To share our experiences, to comfort each other, to know that we’re understood. If text and speech were able to convey our feelings, emotions, state-of-being as easy as art would, we would speak our emotions into existence. But often times, text and speech confines our emotions. A painting, for example, is not confined by grammar and vocabularly. It can communicate so much more. And that is why we use it – why we’ve been paiting for at least 35,000 years.</p>
+</section>
+<section id="art-is-important" class="level1">
+<h1>Art is Important</h1>
+<p>As John writes, what he wants out of art is either, but not limited to, an encouraging plea or a validating embrace. And herein lies, I think the importance of art.</p>
+<p>Art enables us to communicate more than we could ever with language. And for when we need validation, motivation, or inspiration we can look towards art, filled with rich meaning, deep history, and vibrant emotions.</p>
+<p>Art is important because through it we can become more connected, more understanding, and more loving. Those reasons alone make it valuable, valuable enough to join in on the many conversations happening in an art gallery.</p>
+</section>
+<section id="art-is" class="level1">
+<h1>Art is…</h1>
+<p>To me, there is conflict within me regarding whether I am understanding the author’s intent or I’m coming to a different message than intended. It could be that I don’t have the art literacy to understand the message, or that the artist has failed to communicate their message.</p>
 
 
 </section>
 
  ]]></description>
-  <category>Event</category>
-  <category>Friends</category>
-  <category>Personal</category>
-  <guid>https://www.diantwood.github.io/posts/02_PubCrawl2023/pubcrawl.html</guid>
-  <pubDate>Fri, 17 Feb 2023 14:00:00 GMT</pubDate>
-  <media:content url="https://www.diantwood.github.io/posts/02_PubCrawl2023/drinking.jpg" medium="image" type="image/jpeg"/>
+  <category>writing</category>
+  <category>art</category>
+  <category>personal</category>
+  <guid>https://www.diantwood.github.io/posts/04_Art/art.html</guid>
+  <pubDate>Mon, 27 Mar 2023 15:00:00 GMT</pubDate>
+  <media:content url="https://www.diantwood.github.io/posts/04_Art/art.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>30 minutes, 610 Words: Fulfillment</title>
@@ -113,7 +57,7 @@ if (outputEl) {{
 
 
 
-<p>What makes you fulfilled? This is the question I explore in today’s attempt at 610 words.</p>
+<p>What makes you fulfilled? This is the question I explore in today’s attempt at 610 words. qua</p>
 <section id="leaning-in" class="level1">
 <h1>Leaning in</h1>
 <p>A couple of days ago, I wrote a blog that was my attempt at completing a challenge from the Areopagus Volume XXXV. If you want context for it, go to that blog.</p>
@@ -207,7 +151,7 @@ Note
   <category>challenge</category>
   <category>personal</category>
   <guid>https://www.diantwood.github.io/posts/03_fulfillment/fulfillment.html</guid>
-  <pubDate>Tue, 14 Feb 2023 14:00:00 GMT</pubDate>
+  <pubDate>Tue, 14 Feb 2023 15:00:00 GMT</pubDate>
   <media:content url="https://www.diantwood.github.io/posts/03_fulfillment/fulfillment.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -316,7 +260,7 @@ Note
   <category>challenge</category>
   <category>personal</category>
   <guid>https://www.diantwood.github.io/posts/01_610Words/index.html</guid>
-  <pubDate>Mon, 13 Feb 2023 14:00:00 GMT</pubDate>
+  <pubDate>Mon, 13 Feb 2023 15:00:00 GMT</pubDate>
   <media:content url="https://www.diantwood.github.io/posts/01_610Words/calvin.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -377,6 +321,39 @@ Note
 </div>
 </div>
 <p>As you can see from above, the easyness to include plots and Japanese makes it worth documenting all this online for others to see. But it also proverbially kills two birds with one stone.</p>
+<div class="cell" data-execution_count="2">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;">from</span> ipyleaflet <span class="im" style="color: #00769E;">import</span> Map, Marker</span>
+<span id="cb2-2"></span>
+<span id="cb2-3">center <span class="op" style="color: #5E5E5E;">=</span> (<span class="fl" style="color: #AD0000;">52.204793</span>, <span class="fl" style="color: #AD0000;">360.121558</span>)</span>
+<span id="cb2-4"></span>
+<span id="cb2-5">m <span class="op" style="color: #5E5E5E;">=</span> Map(center<span class="op" style="color: #5E5E5E;">=</span>center, zoom<span class="op" style="color: #5E5E5E;">=</span><span class="dv" style="color: #AD0000;">15</span>)</span>
+<span id="cb2-6"></span>
+<span id="cb2-7">marker <span class="op" style="color: #5E5E5E;">=</span> Marker(location<span class="op" style="color: #5E5E5E;">=</span>center, draggable<span class="op" style="color: #5E5E5E;">=</span><span class="va" style="color: #111111;">True</span>)</span>
+<span id="cb2-8">m.add_layer(marker)<span class="op" style="color: #5E5E5E;">;</span></span>
+<span id="cb2-9"></span>
+<span id="cb2-10">display(m)</span>
+<span id="cb2-11"></span>
+<span id="cb2-12"><span class="co" style="color: #5E5E5E;"># Now that the marker is on the Map, you can drag it with your mouse,</span></span>
+<span id="cb2-13"><span class="co" style="color: #5E5E5E;"># it will automatically update the `marker.location` attribute in Python</span></span>
+<span id="cb2-14"></span>
+<span id="cb2-15"><span class="co" style="color: #5E5E5E;"># You can also update the marker location from Python, that will update the</span></span>
+<span id="cb2-16"><span class="co" style="color: #5E5E5E;"># marker location on the Map:</span></span>
+<span id="cb2-17">marker.location <span class="op" style="color: #5E5E5E;">=</span> (<span class="dv" style="color: #AD0000;">50</span>, <span class="dv" style="color: #AD0000;">356</span>)</span>
+<span id="cb2-18">m</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id":"a5ab8a58371d497eb8842a805ea9b922","version_major":2,"version_minor":0}
+</script>
+</div>
+<div class="cell-output cell-output-display">
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id":"a5ab8a58371d497eb8842a805ea9b922","version_major":2,"version_minor":0}
+</script>
+</div>
+</div>
 
 
 </section>
@@ -385,7 +362,7 @@ Note
   <category>news</category>
   <category>personal</category>
   <guid>https://www.diantwood.github.io/posts/00_welcome/first blog.html</guid>
-  <pubDate>Mon, 30 Jan 2023 14:00:00 GMT</pubDate>
+  <pubDate>Mon, 30 Jan 2023 15:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
