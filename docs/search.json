@@ -1,7 +1,42 @@
 [
   {
+    "objectID": "posts/05_Day1ofJapanStudies/いや.html",
+    "href": "posts/05_Day1ofJapanStudies/いや.html",
+    "title": "Learning Japanese いや",
+    "section": "",
+    "text": "Learning Japanese いや\nBleshgoo"
+  },
+  {
+    "objectID": "posts/03_fulfillment/fulfillment.html",
+    "href": "posts/03_fulfillment/fulfillment.html",
+    "title": "30 minutes, 610 Words: Fulfillment",
+    "section": "",
+    "text": "What makes you fulfilled? This is the question I explore in today’s attempt at 610 words. qua"
+  },
+  {
+    "objectID": "posts/03_fulfillment/fulfillment.html#reflection",
+    "href": "posts/03_fulfillment/fulfillment.html#reflection",
+    "title": "30 minutes, 610 Words: Fulfillment",
+    "section": "Reflection",
+    "text": "Reflection\nThose last seven words a very poignant to me. And I think if we looked at my life through this lens, it would make a lot of sense. The first connection I want to make is that these theme of ‘doing Good’ (note the capital G is intentional) is the essence of Lord of the Rings. In it the Hobbits are striving only to do the right (Good) thing. And it so happens that it was thrust upon Frodo and Sam to carry the ring. But it was the Good choice. Those movies tell us that the heroic thing to do is to not give into evil: to do good. And those most capable of that are the hobbits – the wholesome, simple-living hobbits. These are the heroes of that tale. I think both LotR influenced my values and that my values make it why I like LotR.\nAnd the other connection is trying. I vehemently disagree with those who give up. Those who refuse to improve or try or settle for anything less. Those who give into evil. While it is a bit drastic to equate giving up to evil, and it isn’t one-to-one, I think there is nuanced take that not trying is a sin.\nTo all those who earnestly try to do Good: you bow to no one."
+  },
+  {
+    "objectID": "posts/00_welcome/first blog.html",
+    "href": "posts/00_welcome/first blog.html",
+    "title": "What is to Come?",
+    "section": "",
+    "text": "1 What is to Come?\nIt’s interesting to think that I have learned so much, but I’ve never really demonstrated it or catalogued it. This website will hopefully do that. And it makes it better because I can incorporate knowledge of Physics and Maths easily while showing of my coding skills too.\nThe main thing I want to put in here is stuff I have learned or I am currently learning. Whether it is machine learning, or it is Japanese culture, I will aim to document stuff here.\nOne thing I want to put on this website, maybe not in the form of a blog post, but is my Honours Thesis. So, stay tuned for that.\nI will also likely put some physics tutorial notes in here.\n\n\n2 日本語を勉強\nテスト\n\n\n3 Testing Plots\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nfig = plt.figure()\nfig.set_size_inches(12,7)\nx = np.arange(10)\ny = 2.5 * np.sin(x / 20 * np.pi)\nyerr = np.linspace(0.05, 0.2, 10)\n\nplt.errorbar(x, y + 3, yerr=yerr, label='both limits (default)')\nplt.errorbar(x, y + 2, yerr=yerr, uplims=True, label='uplims=True')\nplt.errorbar(x, y + 1, yerr=yerr, uplims=True, lolims=True,\n             label='uplims=True, lolims=True')\n\nupperlimits = [True, False] * 5\nlowerlimits = [False, True] * 5\nplt.errorbar(x, y, yerr=yerr, uplims=upperlimits, lolims=lowerlimits,\n             label='subsets of uplims and lolims')\nplt.xlabel(\"X_axis_title\")\nplt.ylabel(\"Y axis title\")\nplt.legend(loc='lower right')\nplt.show(fig)\n\n\n\n\n\nFigure 1: Errorbar limit selection\n\n\n\n\nAs you can see from above, the easyness to include plots and Japanese makes it worth documenting all this online for others to see. But it also proverbially kills two birds with one stone.\n\n\nCode\nfrom ipyleaflet import Map, Marker\n\ncenter = (52.204793, 360.121558)\n\nm = Map(center=center, zoom=15)\n\nmarker = Marker(location=center, draggable=True)\nm.add_layer(marker);\n\ndisplay(m)\n\n# Now that the marker is on the Map, you can drag it with your mouse,\n# it will automatically update the `marker.location` attribute in Python\n\n# You can also update the marker location from Python, that will update the\n# marker location on the Map:\nmarker.location = (50, 356)\nm"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
+    "title": "Alexander Dian",
+    "section": "",
+    "text": "Alex Dian tries his best at exploring a variety of topics. You can never really pinpoint what he is doing at any one time – maybe there should be a Dian’s Uncertainty Principle. The highest probability measurement outcomes are: basketball, physics, machine learning, Japanese culture, and history/art."
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
     "title": "Alexander Dian",
     "section": "",
     "text": "Alex Dian tries his best at exploring a variety of topics. You can never really pinpoint what he is doing at any one time – maybe there should be a Dian’s Uncertainty Principle. The highest probability measurement outcomes are: basketball, physics, machine learning, Japanese culture, and history/art."
@@ -25,14 +60,7 @@
     "href": "index.html",
     "title": "Dian’s Blog",
     "section": "",
-    "text": "Art and what it is for\n\n\n\n\n\n\n\nwriting\n\n\nart\n\n\npersonal\n\n\n\n\n\n\n\n\n\n\n\nMar 28, 2023\n\n\nAlex Dian\n\n\n\n\n\n\n  \n\n\n\n\n30 minutes, 610 Words: Fulfillment\n\n\n\n\n\n\n\nwriting\n\n\nchallenge\n\n\npersonal\n\n\n\n\n\n\n\n\n\n\n\nFeb 15, 2023\n\n\nAlex Dian\n\n\n\n\n\n\n  \n\n\n\n\n30 minutes, 610 Words\n\n\n\n\n\n\n\nwriting\n\n\nchallenge\n\n\npersonal\n\n\n\n\n\n\n\n\n\n\n\nFeb 14, 2023\n\n\nAlex Dian\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is to Come?\n\n\n\n\n\n\n\nnews\n\n\npersonal\n\n\n\n\n\n\n\n\n\n\n\nJan 31, 2023\n\n\nAlex Dian\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/00_welcome/first blog.html",
-    "href": "posts/00_welcome/first blog.html",
-    "title": "What is to Come?",
-    "section": "",
-    "text": "1 What is to Come?\nIt’s interesting to think that I have learned so much, but I’ve never really demonstrated it or catalogued it. This website will hopefully do that. And it makes it better because I can incorporate knowledge of Physics and Maths easily while showing of my coding skills too.\nThe main thing I want to put in here is stuff I have learned or I am currently learning. Whether it is machine learning, or it is Japanese culture, I will aim to document stuff here.\nOne thing I want to put on this website, maybe not in the form of a blog post, but is my Honours Thesis. So, stay tuned for that.\nI will also likely put some physics tutorial notes in here.\n\n\n2 日本語を勉強\nテスト\n\n\n3 Testing Plots\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nfig = plt.figure()\nfig.set_size_inches(12,7)\nx = np.arange(10)\ny = 2.5 * np.sin(x / 20 * np.pi)\nyerr = np.linspace(0.05, 0.2, 10)\n\nplt.errorbar(x, y + 3, yerr=yerr, label='both limits (default)')\nplt.errorbar(x, y + 2, yerr=yerr, uplims=True, label='uplims=True')\nplt.errorbar(x, y + 1, yerr=yerr, uplims=True, lolims=True,\n             label='uplims=True, lolims=True')\n\nupperlimits = [True, False] * 5\nlowerlimits = [False, True] * 5\nplt.errorbar(x, y, yerr=yerr, uplims=upperlimits, lolims=lowerlimits,\n             label='subsets of uplims and lolims')\nplt.xlabel(\"X_axis_title\")\nplt.ylabel(\"Y axis title\")\nplt.legend(loc='lower right')\nplt.show(fig)\n\n\n\n\n\nFigure 1: Errorbar limit selection\n\n\n\n\nAs you can see from above, the easyness to include plots and Japanese makes it worth documenting all this online for others to see. But it also proverbially kills two birds with one stone.\n\n\nCode\nfrom ipyleaflet import Map, Marker\n\ncenter = (52.204793, 360.121558)\n\nm = Map(center=center, zoom=15)\n\nmarker = Marker(location=center, draggable=True)\nm.add_layer(marker);\n\ndisplay(m)\n\n# Now that the marker is on the Map, you can drag it with your mouse,\n# it will automatically update the `marker.location` attribute in Python\n\n# You can also update the marker location from Python, that will update the\n# marker location on the Map:\nmarker.location = (50, 356)\nm"
+    "text": "Learning Japanese いや\n\n\n\n\n\n\n\nwriting\n\n\nart\n\n\npersonal\n\n\nJapan\n\n\n\n\n\n\n\n\n\n\n\nJan 31, 2024\n\n\nAlex Dian\n\n\n\n\n\n\n  \n\n\n\n\nArt and what it is for\n\n\n\n\n\n\n\nwriting\n\n\nart\n\n\npersonal\n\n\n\n\n\n\n\n\n\n\n\nMar 28, 2023\n\n\nAlex Dian\n\n\n\n\n\n\n  \n\n\n\n\n30 minutes, 610 Words: Fulfillment\n\n\n\n\n\n\n\nwriting\n\n\nchallenge\n\n\npersonal\n\n\n\n\n\n\n\n\n\n\n\nFeb 15, 2023\n\n\nAlex Dian\n\n\n\n\n\n\n  \n\n\n\n\n30 minutes, 610 Words\n\n\n\n\n\n\n\nwriting\n\n\nchallenge\n\n\npersonal\n\n\n\n\n\n\n\n\n\n\n\nFeb 14, 2023\n\n\nAlex Dian\n\n\n\n\n\n\n  \n\n\n\n\nWhat is to Come?\n\n\n\n\n\n\n\nnews\n\n\npersonal\n\n\n\n\n\n\n\n\n\n\n\nJan 31, 2023\n\n\nAlex Dian\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/01_610Words/index.html",
@@ -47,20 +75,6 @@
     "title": "30 minutes, 610 Words",
     "section": "Reflection",
     "text": "Reflection\nI like the exercise. It does help to really sieve out the useless stuff. And because I just over-explained, I get the sense that I’ve cut the fat, rather than missing substance.\nThough, I must say that in doing this exercise, it amplifies two things. First, it amplifies that I am very indecisive. I am constantly worried that it isn’t how I actually feel. That there is a better option or feeling that I am missing. Second, it does reinforce part of me does in fact like the being a bit quirky."
-  },
-  {
-    "objectID": "posts/03_fulfillment/fulfillment.html",
-    "href": "posts/03_fulfillment/fulfillment.html",
-    "title": "30 minutes, 610 Words: Fulfillment",
-    "section": "",
-    "text": "What makes you fulfilled? This is the question I explore in today’s attempt at 610 words. qua"
-  },
-  {
-    "objectID": "posts/03_fulfillment/fulfillment.html#reflection",
-    "href": "posts/03_fulfillment/fulfillment.html#reflection",
-    "title": "30 minutes, 610 Words: Fulfillment",
-    "section": "Reflection",
-    "text": "Reflection\nThose last seven words a very poignant to me. And I think if we looked at my life through this lens, it would make a lot of sense. The first connection I want to make is that these theme of ‘doing Good’ (note the capital G is intentional) is the essence of Lord of the Rings. In it the Hobbits are striving only to do the right (Good) thing. And it so happens that it was thrust upon Frodo and Sam to carry the ring. But it was the Good choice. Those movies tell us that the heroic thing to do is to not give into evil: to do good. And those most capable of that are the hobbits – the wholesome, simple-living hobbits. These are the heroes of that tale. I think both LotR influenced my values and that my values make it why I like LotR.\nAnd the other connection is trying. I vehemently disagree with those who give up. Those who refuse to improve or try or settle for anything less. Those who give into evil. While it is a bit drastic to equate giving up to evil, and it isn’t one-to-one, I think there is nuanced take that not trying is a sin.\nTo all those who earnestly try to do Good: you bow to no one."
   },
   {
     "objectID": "posts/04_Art/art.html",

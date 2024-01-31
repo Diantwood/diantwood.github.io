@@ -1,7 +1,7 @@
 ---
-title: "Art and what it is for"
+title: "Learning Japanese いや"
 author: "Alex Dian"
-date: "2024-01-31"
+date: "1/31/2024"
 categories: [writing, art, personal, Japan]
 image: "art.jpg"
 ---
